@@ -1,0 +1,310 @@
+<script>resizeTo(screen.availWidth, screen.availHeight);</script>
+
+<style>
+
+body{
+background-image: url('https://media.giphy.com/media/9xgaX9YaC1MAMosCPl/giphy.gif') !important; 
+background-repeat:no-repeat !important; 
+background-position:right !important; 
+background-size:contain;
+background-color:#C3C8CE;
+}
+
+::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #999999;}
+
+#bigbox1 {
+position:absolute;
+background-color:#434D6F;
+border:5px dotted #FFFFFF;
+width:25%;
+height:40%;
+left:20%;
+top:30%;
+}
+
+#content {
+position:absolute;
+overflow:auto;
+padding:2%;
+border:5px dotted #C3C8CE;
+background-color:#FFFFFF;
+width:89%;
+height:85%;
+left:2.5%;
+top:3.5%;
+font-size:1.5vh;
+font-family: 'Karla', sans-serif;
+color:#666666;
+}
+
+#bigbox2 {
+position:absolute;
+background-color:#434D6F;
+border:5px dotted #FFFFFF;
+width:25%;
+height:8%;
+left:20%;
+top:20%;
+}
+
+#title {
+position:absolute;
+border:5px dotted #C3C8CE;
+background-color:#FFFFFF;
+width:93%;
+height:57%;
+left:2.5%;
+top:15%;
+text-align:center;
+font-size:3.3vh;
+font-family: 'Righteous', cursive;
+color:#666666;
+}
+
+#tabbox1 {
+position:absolute;
+background-color:#434D6F;
+border:5px dotted #FFFFFF;
+width:4%;
+height:8%;
+left:20%;
+top:72%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox2 {
+position:absolute;
+background-color:#434D6F;
+border:5px dotted #FFFFFF;
+width:4%;
+height:8%;
+left:27%;
+top:72%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox3 {
+position:absolute;
+background-color:#434D6F;
+border:5px dotted #FFFFFF;
+width:4%;
+height:8%;
+left:34%;
+top:72%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox4 {
+position:absolute;
+background-color:#434D6F;
+border:5px dotted #FFFFFF;
+width:4%;
+height:8%;
+left:41%;
+top:72%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs{
+display:block;
+border:5px dotted #C3C8CE;
+background-color:#FFFFFF;
+width:70%;
+height:70%;
+margin-top:8%;
+margin-left:8.5%;
+color:#434D6F;
+font-size:3vh;
+text-align:center;
+line-height:1.75;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+color:#CCCCCC;
+background-color:#666666;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8 {
+display: none;
+}
+
+a {
+color:#000000;
+}
+
+i {
+color:#999999;
+}
+
+b {
+color:#999999;
+text-transform: uppercase;
+}
+
+</style>
+
+<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Karla|Righteous" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('title').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="bigbox2">
+<div id="title">
+Pure As A Melody
+</div>
+</div>
+
+<div id="bigbox1">
+<div id="content">
+<b>Hello!</b><br><br>
+Welcome to my full, it's nothing complicated just something I threw together for the sake of practice. I appreciate the look, you're more than welcome to browse if you want, it's just full of some information about myself.
+<br><br>
+<li><b>Name:</b> Hannah</li>
+<li><b>Age:</b> 21</li>
+<li><b>Gender:</b> Female</li>
+<li><b>Sexual Orientation:</b> Demisexual</li>
+<li><b>Race:</b> Mutt (Mixed with many)</li>
+<li><b>Taken:</b> 26 / 12 / 15</li>
+<br><br>
+I live with my wonderful significant other, his name is Tyler and he uses this site too and is always down for a chat. Usually you'll find him on <a target="_blank" href="http://groove.chatango.com">"Groove"</a> or <a target="_blank" href="http://onyx.chatango.com">"Onyx."</a> My hobbies consist of gaming(PC mostly, but we do own an Xbox One and a PS4), reading, light basic coding, role-playing, swimming, listening to--or playing--music(I'm a violinist), and cooking/baking. Honestly I prefer baking because I love sweets.
+<br><br>
+<b>Helpful Hints!:</b>
+<li>The account names I listed in parenthesis are clickable links.</li>
+<li>Navigate my code using the buttons with the Anchor symbols below.</li>
+</div>
+</div>
+
+<div id="tabbox1">
+<span class="tabs" onClick="changeNavigation ('tab1');changeNavigation1 ('tab2')">⚓</span>
+</div>
+<div id="tabbox2">
+<span class="tabs" onClick="changeNavigation ('tab3');changeNavigation1 ('tab4')">⚓</span>
+</div>
+<div id="tabbox3">
+<span class="tabs" onClick="changeNavigation ('tab5');changeNavigation1 ('tab6')">⚓</span>
+</div>
+<div id="tabbox4">
+<span class="tabs" onClick="changeNavigation ('tab7');changeNavigation1 ('tab8')">⚓</span>
+</div>
+
+<div id="tab1">
+I absolutely <b>love</b> doing these template codes for full profiles, it's one of my favorite passtimes! I'd love the chance to keep doing them, so if you want one too just leave me a message. Unfortunately they still are time consuming so I do request a small fee, but I'm certainly not talented enough to think myself worthy of getting paid a bunch over it. My charge for a completely done-up full is just three backgrounds. The gift extension thing on Chatango, three of those on accounts of my choice, that's it. Not sure if you want to spend any money at all? Don't really like the one you're looking at now? Don't fret, I have all kinds of examples you're more than welcome to have a look at. 
+<br><br>
+<li><a target="_blank" href="https://imgur.com/a/7Iq06Ol">https://imgur.com/a/7Iq06Ol</a></li>
+<br>
+Above is a link to some screenshots of different edits I've done. You can have a look there or even just explore the fulls of my other accounts, pretty much every single one has at least something. The next tab has those listed/linked, just a click away. Will probably still have to enable flash, and I love intergrating music into characters and themes so fair warning in advance.
+</div>
+<div id="tab2">
+Can I Do One For You?
+</div>
+
+<div id="tab3">
+I've amassed a collection of these things, which might seem pretty silly to some people, but it's something I enjoy. I won't be looking to gather any more, though. In fact, some of the ones I do have I'm more than willing for someone to take off my hands. The ones displayed directly below I'd rather keep ahold of for now.
+<br><br>
+<a target="_blank" title="Aeromancer" href="http://aeromancer.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/a/e/aeromancer/thumb.jpg"/></a> 
+<a target="_blank" title="Beats" href="http://beats.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/b/e/beats/thumb.jpg"/></a> 
+<a target="_blank" title="Being" href="http://being.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/b/e/being/thumb.jpg"/></a> 
+<a target="_blank" title="Cellist" href="http://cellist.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/e/cellist/thumb.jpg"/></a> 
+<a target="_blank" title="Chimera" href="http://chimera.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/h/chimera/thumb.jpg"/></a> 
+<a target="_blank" title="Cosmic" href="http://cosmic.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/o/cosmic/thumb.jpg"/></a> 
+<a target="_blank" title="Doggie" href="http://doggie.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/d/o/doggie/thumb.jpg"/></a> 
+<a target="_blank" title="Dryad" href="http://dryad.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/d/r/dryad/thumb.jpg"/></a> 
+<a target="_blank" title="Fae" href="http://fae.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/f/a/fae/thumb.jpg"/></a>
+<a target="_blank" title="Glass" href="http://glass.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/g/l/glass/thumb.jpg"/></a> 
+<a target="_blank" title="Gypsy" href="http://gypsy.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/g/y/gypsy/thumb.jpg"/></a> 
+<a target="_blank" title="II" href="http://ii.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/i/i/ii/thumb.jpg"/></a> 
+<a target="_blank" title="Ka" href="http://ka.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/k/a/ka/thumb.jpg"/></a> 
+<a target="_blank" title="Lark" href="http://lark.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/l/a/lark/thumb.jpg"/></a> 
+<a target="_blank" title="Matriarch" href="http://matriarch.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/m/a/matriarch/thumb.jpg"/></a> 
+<a target="_blank" title="Mutt" href="http://mutt.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/m/u/mutt/thumb.jpg"/></a> 
+<a target="_blank" title="North" href="http://north.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/n/o/north/thumb.jpg"/></a> 
+<a target="_blank" title="Orchestra" href="http://orchestra.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/o/r/orchestra/thumb.jpg"/></a> 
+<a target="_blank" title="Rune" href="http://rune.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/r/u/rune/thumb.jpg"/></a> 
+<a target="_blank" title="Sass" href="http://sass.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/s/a/sass/thumb.jpg"/></a> 
+<a target="_blank" title="Skinwalker" href="http://skinwalker.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/s/k/skinwalker/thumb.jpg"/></a> 
+<a target="_blank" title="Sly" href="http://sly.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/s/l/sly/thumb.jpg"/></a> 
+<a target="_blank" title="Sorceress" href="http://sorceress.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/s/o/sorceress/thumb.jpg"/></a> 
+<a target="_blank" title="Spectral" href="http://spectral.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/s/p/spectral/thumb.jpg"/></a> 
+<a target="_blank" title="Synesthesia" href="http://synesthesia.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/s/y/synesthesia/thumb.jpg"/></a> 
+<a target="_blank" title="Topaz" href="http://topaz.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/t/o/topaz/thumb.jpg"/></a> 
+<a target="_blank" title="Venus" href="http://venus.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/v/e/venus/thumb.jpg"/></a> 
+<a target="_blank" title="Violinist" href="http://violinist.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/v/i/violinist/thumb.jpg"/></a> 
+<a target="_blank" title="Violist" href="http://violist.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/v/i/violist/thumb.jpg"/></a> 
+<a target="_blank" title="Wisp" href="http://wisp.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/w/i/wisp/thumb.jpg"/></a> 
+<br><br>
+This next group are still accounts of mine, but I'm willing to trade them off or sell them. Prices are pretty cheap for the ones with set costs--some of 'em are just $3! I'm not a fan of overcharging ridiculous prices for accounts, I think it's kinda conceited and elitest.
+<br><br>
+<a target="_blank" title="Alana" href="http://alana.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/a/l/alana/thumb.jpg"/></a> 
+<a target="_blank" title="Banshee" href="http://banshee.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/b/a/banshee/thumb.jpg"/></a> 
+<a target="_blank" title="Beguile" href="http://beguile.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/b/e/beguile/thumb.jpg"/></a> 
+<a target="_blank" title="Celtic" href="http://celtic.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/e/celtic/thumb.jpg"/></a> 
+<a target="_blank" title="Clairvoyant" href="http://clairvoyant.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/l/clairvoyant/thumb.jpg"/></a> 
+<a target="_blank" title="Clef" href="http://clef.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/l/clef/thumb.jpg"/></a> 
+<a target="_blank" title="Commiserate" href="http://commiserate.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/o/commiserate/thumb.jpg"/></a> 
+<a target="_blank" title="Crescent" href="http://crescent.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/c/r/crescent/thumb.jpg"/></a> 
+<a target="_blank" title="Finesse" href="http://finesse.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/f/i/finesse/thumb.jpg"/></a> 
+<a target="_blank" title="Herbal" href="http://herbal.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/h/e/herbal/thumb.jpg"/></a> 
+<a target="_blank" title="Krys" href="http://krys.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/k/r/krys/thumb.jpg"/></a> 
+<a target="_blank" title="Lighten" href="http://lighten.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/l/i/lighten/thumb.jpg"/></a> 
+<a target="_blank" title="Lynch" href="http://lynch.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/l/y/lynch/thumb.jpg"/></a> 
+<a target="_blank" title="Mab" href="http://mab.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/m/a/mab/thumb.jpg"/></a> 
+<a target="_blank" title="Musical" href="http://musical.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/m/u/musical/thumb.jpg"/></a> 
+<a target="_blank" title="Pianist" href="http://pianist.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/p/i/pianist/thumb.jpg"/></a> 
+<a target="_blank" title="Seer" href="http://seer.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/s/e/seer/thumb.jpg"/></a> 
+<a target="_blank" title="Telepath" href="http://telepath.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/t/e/telepath/thumb.jpg"/></a> 
+<a target="_blank" title="Terrifying" href="http://terrifying.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/t/e/terrifying/thumb.jpg"/></a> 
+<a target="_blank" title="Tris" href="http://tris.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/t/r/tris/thumb.jpg"/></a> 
+<a target="_blank" title="Vessel" href="http://vessel.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/v/e/vessel/thumb.jpg"/></a> 
+<a target="_blank" title="Wonder" href="http://wonder.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/w/o/wonder/thumb.jpg"/></a> 
+<a target="_blank" title="Woven" href="http://woven.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/w/o/woven/thumb.jpg"/></a> 
+</div>
+<div id="tab4">
+My Accounts
+</div>
+
+<div id="tab5">
+These are links to the main accounts of some of the best people I've met. Hey, if you don't see yourself here don't take it personal, either I don't talk to you enough to consider us really close or we haven't known each other long.
+<br><br>
+<a target="_blank" title="Ash" href="http://ashaire.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/a/s/ashaire/thumb.jpg"/></a> 
+<a target="_blank" title="Galen (Linda)" href="http://ezekielhazen.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/e/z/ezekielhazen/thumb.jpg"/></a> 
+<a target="_blank" title="Hazel" href="http://expression.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/e/x/expression/thumb.jpg"/></a> 
+<a target="_blank" title="Mia" href="http://mage.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/m/a/mage/thumb.jpg"/></a> 
+<a target="_blank" title="Onion" href="http://eidetikos.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/e/i/eidetikos/thumb.jpg"/></a> 
+<a target="_blank" title="Riley" href="http://primum.chatango.com"><img style="border:1px solid #999999;" src="http://fp.chatango.com/profileimg/p/r/primum/thumb.jpg"/></a> 
+<br><br>
+I hope to make the list even longer over time, as long as my dear friends don't mind me putting them up here! ♥
+</div>
+<div id="tab6">
+My Lovely Friends
+</div>
+
+<div id="tab7">
+I don't own any of the art--and especially not the song--used on this profile. I'd like to use this space to provide you with links to their sources, since giving honor where it's due is very important to me.
+<br><br>
+<li><b>Music:</b> <a target="_blank" href="https://www.youtube.com/watch?v=4A3poKE6qnM">Lenka - Everything At Once (Audio)</a></li>
+<br>
+<li><b>Profile Picture:</b> <a target="_blank" href="https://www.pinterest.com/pin/610448924464863546/">https://www.pinterest.com/pin/610448924464863546/</a></li>
+<br>
+<li><b>Background Gif:</b> <a target="_blank" href="https://gfycat.com/gifs/detail/ThickSingleBee">https://gfycat.com/gifs/detail/ThickSingleBee</a></li>
+</div>
+<div id="tab8">
+Credits!
+</div>
+
+<embed style="height: 0%; width: 0%;"src="Sly.mp3" autostart="true" loop="true">
